@@ -1,2 +1,2 @@
-# data-analytics
+# data analytics
 Data Analytics 
