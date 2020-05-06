@@ -1,0 +1,27 @@
+{
+  "name": "us-poverty",
+  "version": "0.0.1",
+  "description": "us poverty stats",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blaktai/data-analytics.git"
+  },
+  "keywords": [
+    "poverty",
+    "census",
+    "usa"
+  ],
+  "author": "blaktai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blaktai/data-analytics/issues"
+  },
+  "homepage": "https://github.com/blaktai/data-analytics#readme",
+  "dependencies": {
+    "citysdk": "^2.1.0"
+  }
+}
