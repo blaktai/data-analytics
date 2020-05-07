@@ -1,3 +1,3 @@
-## poverty
+## Poverty
 
 U.S. Poverty metrics
