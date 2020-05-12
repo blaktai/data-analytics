@@ -8,7 +8,6 @@ census({
       "state" : "*"
     }
 }, (err, resp) => {
-    console.log(resp);
-    console.log(err);
+    err ? console.log(err) : console.log(resp);
 }
 )
