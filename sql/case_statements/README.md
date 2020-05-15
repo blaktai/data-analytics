@@ -36,6 +36,7 @@ However, you can perform this operation using a CASE statement once you've ident
     Group the query by the CASE statement alias, home_team.
 
 -- Identify the home team as Bayern Munich, Schalke 04, or neither
+```sql
 SELECT 
 	CASE WHEN hometeam_id = 10189 THEN 'FC Schalke 04'
         WHEN hometeam_id = 9823 THEN 'FC Bayern Munich'
@@ -44,6 +45,7 @@ SELECT
 FROM matches_germany
 -- Group by the CASE statement alias
 GROUP BY home_team;
+```
 
 ## CASE statements comparing column values
 
