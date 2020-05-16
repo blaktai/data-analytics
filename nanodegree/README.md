@@ -1,1 +1,0 @@
-## Udacity Data Analyst Nanodegree
