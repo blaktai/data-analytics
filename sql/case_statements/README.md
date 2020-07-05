@@ -109,7 +109,7 @@ In this exercise, you will be creating a list of matches in the 2011/2012 season
 
 In 3 steps, you will build a query that identifies a match's winner, identifies the identity of the opponent, and finally filters for Barcelona as the home team. Completing a query in this order will allow you to watch your results take shape with each new piece of information.
 
-The matches_spain table currently contains Barcelona's matches from the 2011/2012 season, and has two key columns, hometeam_id and awayteam_id, that can be joined with the teams_spain table. However, you can only join teams_spain to one column at a time.
+	The matches_spain table currently contains Barcelona's matches from the 2011/2012 season, and has two key columns, hometeam_id and awayteam_id, that can be joined with the teams_spain table. However, you can only join teams_spain to one column at a time.
 
 ```sql 
 
@@ -133,8 +133,8 @@ Similar to the previous exercise, you will construct a query to determine the ou
 
 Did their performance differ from the matches where they were the home team?
 
-Complete the CASE statement to identify Barcelona's away team games (id = 8634) as wins, losses, or ties.
-Left join the teams_spain table team_api_id column on the matches_spain table hometeam_id column. This retrieves the identity of the home team opponent.
+	Complete the CASE statement to identify Barcelona's away team games (id = 8634) as wins, losses, or ties.
+	Left join the teams_spain table team_api_id column on the matches_spain table hometeam_id column. This retrieves the identity of the home team opponent.
 
 ```sql 
 
@@ -216,7 +216,7 @@ WHERE
 ```
 In essence, you can use the CASE statement as a filtering column like any other column in your database. The only difference is that you don't alias the statement in WHERE.
 
-Identify Bologna's team ID listed in the teams_italy table by selecting the team_long_name and team_api_id.
+	Identify Bologna's team ID listed in the teams_italy table by selecting the team_long_name and team_api_id.
 
 ```sql
 
@@ -361,7 +361,7 @@ With this approach, it's important to accurately specify which records count as 
 
 Your task is to examine the number of wins, losses, and ties in each country. The matches table is filtered to include all matches from the 2013/2014 and 2014/2015 seasons.
 
-Create 3 CASE statements to COUNT the total number of home team wins, away team wins, and ties. This will allow you to examine the total number of records. You will convert this to an AVG in the next step.
+	Create 3 CASE statements to COUNT the total number of home team wins, away team wins, and ties. This will allow you to examine the total number of records. You will convert this to an AVG in the next step.
 
 ```sql
 
